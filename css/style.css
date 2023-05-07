@@ -1,0 +1,199 @@
+/* UniverSal Section CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper{
+    width: 1400px;
+    margin: auto;
+}
+
+
+/* Header Logo CSS */
+.header-logo{
+    text-align: center;
+    background-color: #2f219a;
+    padding: 15px 0;
+}
+
+.logo img{
+    width: 100px;
+    padding: 20px;
+}
+
+
+
+/* Header Menu CSS */
+.header-menu{
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 0;
+}
+
+ul.primary-menu{
+    text-align: center;
+    list-style: none;
+}
+ul.primary-menu li{
+   display: inline-block;
+   margin-left: -4px;
+}
+ul.primary-menu li a{
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-right: 1px solid #fff;
+
+    transition: .3s;
+}
+ul.primary-menu li a:hover{
+    background-color: #444;
+}
+
+
+
+ul.primary-menu li:nth-child(6) a{
+    border-right: none;
+}
+
+
+
+
+
+
+/* Banner Section CSS */
+.banner{
+    text-align: center;
+    padding: 200px 0;
+    background: url("https://i.ibb.co/747Mqn5/banner-1.jpg") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.banner-content{}
+.banner-content h1{
+    font-size: 40px;
+}
+.banner-content p{
+    width: 600px;
+    margin: 20px auto;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.banner-content .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #008001;
+    color: #c9f2c2;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+/* Contact Us Section CSS */
+.contact-us{
+    text-align: center;
+    padding: 200px 0;
+    background: url("https://i.ibb.co/LRD0x8Z/banner-2.jpg") no-repeat top center;
+    background-size: cover;
+}
+
+.contact-us h1{
+    background-color: #008001;
+    padding: 10px 0;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-us p{
+    background-color: #ffff00;
+    color: #000;
+    width: 900px;
+    padding: 20px 0;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+
+.contact-us .btn{
+    display: inline-block;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+
+/* Team Section CSS */
+.team {
+    background-color: #4ab75c;
+    padding: 40px 0 100px 0;
+}
+
+.team-content{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.team-content h1{
+    font-size: 40px;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.team-member{
+    clear: both;
+    text-align: left;
+}
+
+.team-member-one img{
+    float: left;
+    margin-right: 50px;
+}
+
+.team-member-two img{
+    float: right;
+}
+
+
+
+/* Footer Section CSS */
+.footer{
+    background-color: #2d1a8e;
+    padding: 20px 0;
+}
+
+ul.footer-menu{
+    text-align: center;
+}
+ul.footer-menu li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+ul.footer-menu li a{
+    display: block;
+    padding: 10px 20px;
+    border: 2px solid #ddd;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+
+}
+
+
